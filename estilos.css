@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.tablinks {
+    position: relative;
+    left: 30rem;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 5rem;
+    color: rgb(140, 0, 255);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.tablinks:hover {
+    background-color: yellow;
+    height: 3px;
+}
+
+.tab1{
+    font-style: oblique;
+}
+
+.logo{
+    position: absolute;
+    left: 40rem;
+}
+
+.brand{
+    position: absolute;
+    bottom: 30rem;
+}
+
+.titulo1{
+    color: rgb(140, 0, 255);
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+    
+}
+
+.parrafo{
+    color: rgb(176, 166, 219);
+    font-size: 33px;
+    bottom: 20px;
+}
+
+.buy {
+    background-color: aqua;
+    padding: 1rem;
+    border-radius: 20px;
+    right: 3rem;
+}
+
+.buy-text{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
